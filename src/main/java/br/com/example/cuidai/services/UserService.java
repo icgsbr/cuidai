@@ -3,6 +3,7 @@ package br.com.example.cuidai.services;
 import br.com.example.cuidai.dtos.UserDTO;
 import br.com.example.cuidai.models.UserModel;
 import br.com.example.cuidai.repositories.IUserRepository;
+import br.com.example.cuidai.services.utils.IMCCalculationUtil;
 import br.com.example.cuidai.services.utils.PasswordUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
